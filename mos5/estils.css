@@ -1,0 +1,39 @@
+div {
+  width: 200px;
+  height: 200px;
+}
+
+#A {
+  background-color: navy;
+  font-size: 30px;
+  color: white;
+  float: left;
+  margin: 10px;
+}
+
+#B {
+  background-color: blue;
+  font-size: 30px;
+  position: relative;
+  top: 500px;
+  left: 50px;
+  color: white;
+  margin: 10px;
+  float: right;
+}
+
+#C {
+  background-color: cyan;
+  font-size: 30px;
+  color: white;
+  margin: 10px;
+  float: left;
+}
+
+#D {
+  background-color: 2AB8EE;
+  font-size: 30px;
+  color: white;
+  margin: 10px;
+  float: left;
+}
