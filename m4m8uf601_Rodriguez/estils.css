@@ -1,0 +1,71 @@
+body {
+  background-color: lightblue;
+}
+
+.cuadres {
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+  background-color: lightgreen;
+}
+
+#uno {
+  background-color: green;
+}
+
+#dos {
+  background-color: blue;
+}
+
+#tres {
+  background-color: pink;
+}
+
+#cuatro {
+  background-color: grey;
+}
+
+
+
+
+@media screen and (max-width: 820px) {
+  body{
+    background-color: coral;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body{
+    background-color: darkgoldenrod;
+  }
+}
+
+@media screen and (max-width: 850px){
+  #uno{
+    background-color: brown;
+  }
+}
+
+@media screen and (max-width: 850px){
+  #dos{
+    background-color: yellow;
+  }
+}
+
+@media screen and (max-width: 850px){
+  #tres{
+    background-color: aquamarine;
+  }
+}
+
+@media screen and (max-width: 850px){
+  #cuatro{
+    background-color: purple;
+  }
+}
+
+@media screen and (max-width: 850px){
+  #dos{
+    background-color: aliceblue;
+  }
+}
