@@ -1,0 +1,52 @@
+body {
+  background-color: cyan;
+  margin: 0;
+}
+
+div {
+  background-color: pink;
+  width: 200px;
+  height: 200px;
+  margin: 15px;
+  float: left;
+  background-image: url(img/helena.jpg);
+  background-repeat: no-repeat;
+  background-size: 200px;
+  font-family: sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: right;
+  line-height: 350px;
+  text-indent: 150px;
+  -webkit-text-stroke: 2px black;
+  color: green;
+}
+
+#boton {
+  background-image: none;
+  font-size: 25px;
+  line-height: inherit;
+  text-indent: inherit;
+  -webkit-text-stroke: 0;
+  color: white;
+  border-radius: 100px;
+  text-align: center;
+  line-height: 200px;
+  float: right;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  color: green;
+}
