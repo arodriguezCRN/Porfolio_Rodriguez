@@ -1,0 +1,106 @@
+body {
+  background-image: url("img/sala.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-family: monospace;
+  text-align: center;
+  color: white;
+}
+
+
+#contenedor {
+  height: 140px;
+  width: 640px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+#contenedor2 {
+  height: 140px;
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.rectangulo {
+  background-color: grey;
+  height: 50px;
+  width: 550px;
+  margin-top: 50px;
+  margin: 0 auto;
+  background-image: url("img/plantas.jpg");
+  background-size: cover;
+}
+
+.bolitas {
+  background-color: black;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  float: left;
+  margin: 30px;
+}
+
+#bolita1 {
+  background-image: url("img/ajedrez.jpg");
+  background-size: cover;
+}
+#bolita2 {
+  background-image: url("img/calabera.jpg");
+  background-size: cover;
+}
+#bolita3 {
+  background-image: url("img/escaleras.jpg");
+  background-size: cover;
+}
+#bolita4 {
+  background-image: url("img/estatua_cabezas.jpg");
+  background-size: cover;
+}
+#bolita5 {
+  background-image: url("img/frasco.jpg");
+  background-size: cover;
+}
+#bolita6 {
+  background-image: url("img/techo.jpg");
+  background-size: cover;
+}
+#bolita7 {
+  background-image: url("img/reina.jpg");
+  background-size: cover;
+}
+#bolita8 {
+  background-image: url("img/serpiente.jpg");
+  background-size: cover;
+}
+#bolita9 {
+  background-image: url("img/espiral escaleras.jpg");
+  background-size: cover;
+}
+#bolita10 {
+  background-image: url("img/estanteria.jpg");
+  background-size: cover;
+}
+#bolita11 {
+  background-image: url("img/estatua_mujer.jpg");
+  background-size: cover;
+}
+#bolita12 {
+  background-image: url("img/tapiz.jpg");
+  background-size: cover;
+}
+#bolita13 {
+  background-image: url("img/mar.jpg");
+  background-size: cover;
+}
+#bolita14 {
+  background-image: url("img/original.jpg");
+  background-size: cover;
+}
+#bolita15 {
+  background-image: url("img/libro en el bosque.jpg");
+  background-size: cover;
+}
