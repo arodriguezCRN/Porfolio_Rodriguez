@@ -1,0 +1,172 @@
+body {
+  background-color: #6633FF;
+}
+
+
+
+.fachada {
+  width: 200px;
+  height: 200px;
+  background: #CCCCFF;
+  position: absolute;
+  left: 400px;
+  top: 527px;
+  border: solid 4px black;
+
+}
+
+.tejado {
+  width: 250px;
+  height: 70px;
+  background: #770077;
+  position: absolute;
+  left: 375px;
+  top: 465px;
+  border: solid 4px black;
+}
+
+.ventana1 {
+  width: 35px;
+  height: 45px;
+  position: absolute;
+  background: blue;
+  left: 430px;
+  top: 555px;
+  border: solid 4px black;
+}
+
+.ventana2 {
+  width: 35px;
+  height: 45px;
+  position: absolute;
+  background: blue;
+  left: 530px;
+  top: 555px;
+  border: solid 4px black;
+}
+
+.puerta {
+  width: 45px;
+  height: 70px;
+  background: black;
+  position: absolute;
+  left: 475px;
+  top: 653px;
+  border: solid 4px black;
+}
+
+.chimenea {
+  width: 35px;
+  height: 60px;
+  background: #880000;
+  position: absolute;
+  left: 550px;
+  top: 420px;
+  border: solid 4px black;
+}
+
+#luna {
+  position:absolute;
+  top:5%;
+  right:50%;
+  right:calc(20% - 100px);
+  width:200px;
+  height:200px;
+  border-radius:50%;
+  background: grey;
+  box-shadow:0px 0px 115px #C0C0C0;
+  z-index: -1;
+}
+
+.base {
+  width: 150%;
+  height: 175px;
+  background: #003300;
+  left: 0px;
+  bottom: -0px;
+  position: absolute;
+}
+
+#palo1 {
+  background-color: green;
+  height: 100px;
+  width: 20px;
+  position: absolute;
+  top: 660px;
+  left:730px;
+}
+
+#petalos1 {
+  clip-path: polygon(0% 15%, 33% 41%, 15% 0%, 85% 0%, 65% 40%, 100% 15%, 100% 85%, 67% 61%, 85% 100%, 15% 100%, 15% 100%, 30% 63%, 0% 85%);
+  background-color: purple;
+  width: 100px;
+  height: 100px;
+  top: 600px;
+  left:692px;
+  position: absolute;
+  border-radius: 50%;
+  animation: florita linear 6s infinite;
+}
+
+#petalos1:after{
+  content: '';
+  background-color: yellow;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  top: 35px;
+  left: 33px;
+}
+
+@keyframes florita{
+  from { transform: rotate(0deg);}
+  to { transform: rotate(360deg);}
+}
+
+<style>
+  body {
+    background: #0088FF;
+}
+
+#cloud {
+  width: 350px; height: 120px;
+  background: #BFF;
+  background: linear-gradient(top, #BFF 5%, #DFF 100%);
+  background: -webkit-linear-gradient(top, #FFF 1%, #BFF 100%);
+  background: -moz-linear-gradient(top, #BFF 5%, #DFF 100%);
+  background: -ms-linear-gradient(top, #BFF 5%, #DFF 100%);
+  background: -o-linear-gradient(top, #BFF 5%, #DFF 100%);
+  top: 50px; left: 50px;
+  border-radius: 100px;
+  position: absolute;
+  margin: 120px auto 20px;
+  left:200px;
+  animation: nube linear 5s infinite;
+}
+
+@keyframes nube {
+  from { margin-left: 100%;}
+  to { margin-left: -30%;}
+}
+
+#cloud:after, #cloud:before {
+  content: '';
+  position: absolute;
+  background: #FFF;
+  z-index: -1
+}
+
+#cloud:after {
+  width: 100px; height: 100px;
+  top: -50px; left: 50px;
+  border-radius: 100px;
+}
+
+#cloud:before {
+  width: 200px; height: 200px;
+  top: -90px; right: 50px;
+  border-radius: 200px;
+}
+
+  </style>
