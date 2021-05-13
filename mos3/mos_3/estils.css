@@ -1,0 +1,49 @@
+h1 {
+  font-size: 15px;
+  font-family: monospace;
+  letter-spacing: 15px;
+}
+
+  body {
+      background-color: cyan;
+      padding: 0;
+      margin: 0;
+    }
+
+  div {
+    background-color: green;
+    margin: 0px;
+    width: 200px;
+    height: 150px;
+    font-size: 20px;
+    color: white;
+}
+
+  #dos {
+    background-color: grey;
+    font-size: 20px;
+    color: white;
+}
+
+  #tres {
+    width: 200px;
+    height: 150px;
+    border-radius: 0px;
+  }
+
+  #cuatro {
+    border-radius: 0px;
+    color: white;
+    background-color: grey;
+  }
+
+  #cinco {
+    border-radius: 0px;
+    background-color: green;
+    color: white;
+  }
+
+  #seis {
+    border-radius: 0px;
+    background-color: grey;
+  }
